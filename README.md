@@ -1,28 +1,39 @@
-# Template Shiny operator for Tercen
+# CORAL Shiny fit operator
 
 ##### Description
 
-The `Template Shiny operator` is a template repository for the creation of Shiny operators in Tercen.
+The `coral_shiny_v2_operator` is the Shiny version of the CORAL tree visualization. 
+The CORAL tree can encode data in three features (node color, node size, and branch color), 
+allows three modes of kinome visualization (the traditional kinome tree as well as 
+radial and dynamic-force networks) and generates high-resolution scalable vector 
+graphic files suitable for publication without the need for refinement in graphic 
+editing software. 
 
 ##### Usage
 
 Input projection|.
 ---|---
-`x-axis`        | type, description 
-`y-axis`        | type, description 
-`row`           | type, description 
-`column`        | type, description 
-`colors`        | type, description 
-`labels`        | type, description 
+`y-axis`        | the kinase score 
+`column`        | uniprot IDs of the kinases
+`colors`        | the variables which define the node colors (can be multiple)
+`labels`        | the variables which define the node size (can be multiple)
 
 Output relations|.
 ---|---
-`Operator view`        | view of the Shiny application
+CORAL tree visualization embedded in a Shiny application.
+
+##### Screenshots
+![Example screenshot](/static/screenshot CORAL.PNG?raw=true "Example of application")
 
 ##### Details
 
-Details on the computation.
+Coral is a user-friendly interactive web application for visualizing both 
+quantitative and qualitative data. Unlike previous tools, Coral can encode data 
+in three features (node color, node size, and branch color), allows three modes 
+of kinome visualization (the traditional kinome tree as well as radial and 
+dynamic-force networks) and generates high-resolution scalable vector graphic files 
+suitable for publication without the need for refinement in graphic editing software. Due to its user-friendly, interactive, and highly customizable design, Coral is broadly applicable to high-throughput studies of the human kinome.
 
 ##### See Also
 
-[template_R_operator](https://github.com/tercen/template_R_operator)
+[original CORAL repository](https://github.com/dphansti/CORAL)
