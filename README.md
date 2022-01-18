@@ -1,4 +1,4 @@
-# CORAL Shiny fit operator
+# CORAL tree shiny operator
 
 ##### Description
 
