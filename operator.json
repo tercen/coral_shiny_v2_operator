@@ -1,7 +1,7 @@
 {
-  "name": "Template Shiny Operator",
-  "description": "Template to create a Shiny operator in Tercen.",
-  "tags": ["template"],
-  "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_shiny_operator"]
+  "name": "CORAL tree shiny operator",
+  "description": "Shiny operator connecting CORAL tree functionality to Tercen.",
+  "tags": ["coral", "coraltree", "network"],
+  "authors": ["William van Doorn", "Peter Linders"],
+  "urls": ["https://github.com/tercen/coral_shiny_v2_operator"]
 }
