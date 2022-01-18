@@ -23,7 +23,7 @@ Output relations|.
 CORAL tree visualization embedded in a Shiny application.
 
 ##### Screenshots
-![Example screenshot](/static/screenshot CORAL.PNG?raw=true "Example of application")
+![Example screenshot](/static/screenshot.PNG?raw=true "Example of application")
 
 ##### Details
 
